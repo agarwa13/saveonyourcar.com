@@ -40,7 +40,7 @@
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block btn-lg" style="border: none;">Next</button>
+                            <button type="submit" class="btn btn-primary btn-block btn-lg remove-border" >Next</button>
                         </div>
 
                     </form>
@@ -85,37 +85,32 @@
             </div>
         </div>
         <div class="street-stripe"></div>
-        <div class="hill">
-            <!--<div class="tree-1">
-                <div class="branch-1"></div>
-                <div class="branch-2"></div>
-                <div class="branch-3"></div>
+        <div class="hill"></div>
+    </div>
+
+    <div class="container" id="home-copy">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>
+                    Know what car you want?
+                </h1>
+                <h1>
+                    Don't feel comfortable haggling with price?
+                </h1>
+                <h1>
+                    Then use <span class="highlight">saveonyourcar.com</span>, it's what we do!
+                </h1>
             </div>
-            <div class="tree-1">
-            <div class="branch"></div>
-            <div class="trunk"></div>
-        </div>-->
+        </div>
+
+        <div class="row home-page-bottom-buttons">
+            <div class="col-md-6">
+                <a class="btn-lg btn-primary btn-block text-center">Search</a>
+            </div>
+            <div class="col-md-6">
+                <a class="btn-lg btn-default btn-block text-center">How It Works</a>
+            </div>
         </div>
 
     </div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

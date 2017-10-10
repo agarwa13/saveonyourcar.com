@@ -3,21 +3,65 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+        <div class="select-box-container">
 
-                    You are logged in!
+            <div class="col-md-6 col-md-offset-3">
+
+                <div class="text-center">
+                    <h2 id="request-a-quote-heading">Request a Quote</h2>
                 </div>
+
+                <form class="form-horizontal">
+
+                    <div class="form-group text-center">
+                        <select class="form-control request-a-quote-select">
+                            <option>Select Make</option>
+                            <option>Acura</option>
+                            <option>Audi</option>
+                            <option>Aston Martin</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <select class="form-control request-a-quote-select">
+                            <option>Select Model</option>
+                            <option>A1</option>
+                            <option>A2</option>
+                            <option>A3</option>
+                            <option>A4</option>
+                            <option>A5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <select class="form-control request-a-quote-select">
+                            <option>Select Fuel</option>
+                            <option>Petrol</option>
+                            <option>Diesel</option>
+                            <option>Hybrid</option>
+                            <option>Electric</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <select class="form-control request-a-quote-select">
+                            <option>Select Transmission</option>
+                            <option>Automatic</option>
+                            <option>Manual</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block btn-lg remove-border">Search</button>
+                    </div>
+                </form>
+
             </div>
         </div>
     </div>
+
 </div>
 @endsection

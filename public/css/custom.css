@@ -8,6 +8,17 @@
     padding-right: 50px;
 }
 
+.select-box{
+
+}
+
+.select-box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
 @media (max-width: 992px) {
     #request-a-quote-heading{
         padding-top: 22px;
@@ -28,11 +39,26 @@
     font-weight: 500;
 }
 
+#home-copy{
+    margin-bottom: 60px;
+}
+
+.home-page-bottom-buttons{
+    margin-top: 30px;
+}
+
+.highlight{
+    color: #f87400;
+}
+
+.remove-border{
+    border: none;
+}
 
 /* CSS Document */
-body, html {
-    height: 100%;
-}
+/*body, html {*/
+    /*height: 100%;*/
+/*}*/
 
 body {
     background: rgb(209,228,234);
@@ -43,8 +69,8 @@ body {
     background: -ms-radial-gradient(center, ellipse cover,  rgba(209,228,234,1) 0%,rgba(186,228,244,1) 100%);
     background: radial-gradient(ellipse at center,  rgba(209,228,234,1) 0%,rgba(186,228,244,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1e4ea', endColorstr='#bae4f4',GradientType=1 );
-    padding:0;
-    margin:0;
+    /*padding:0;*/
+    /*margin:0;*/
 }
 
 .country-wrap {
@@ -52,6 +78,7 @@ body {
     width:100%;
     height: 450px;
     overflow:hidden;
+    margin-bottom: 40px;
 }
 .push-bottom {
     position:absolute;
