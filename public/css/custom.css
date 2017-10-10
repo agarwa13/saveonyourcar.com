@@ -1,4 +1,34 @@
 @charset "utf-8";
+
+#request-a-quote-box{
+    background: #eeeeee;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+@media (max-width: 992px) {
+    #request-a-quote-heading{
+        padding-top: 22px;
+    }
+}
+
+#request-a-quote-heading{
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #333;
+}
+
+.request-a-quote-select{
+    border: none;
+    box-shadow: none;
+    height: 3.5em;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
 /* CSS Document */
 body, html {
     height: 100%;
@@ -20,7 +50,7 @@ body {
 .country-wrap {
     position:relative;
     width:100%;
-    height:100%;
+    height: 450px;
     overflow:hidden;
 }
 .push-bottom {
@@ -103,6 +133,7 @@ body {
     background: linear-gradient(135deg, transparent 25%, #0aa 25%);
     background-size:10px 10px;
 }
+
 .sun {
     background:#ff9944;
     width:40px;
@@ -112,7 +143,15 @@ body {
     position:absolute;
     left:49%;
     bottom:350px;
+    display: none;
 }
+
+@media (min-width: 992px) {
+    .sun{
+        display: block;
+    }
+}
+
 .tree-1 {
     position:absolute;
     z-index:2;

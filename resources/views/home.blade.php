@@ -3,17 +3,22 @@
 @section('content')
 
 
-    <div class="country-wrap" style="height: 400px;">
+    <div class="country-wrap">
 
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div id="request-a-quote-box" class="col-md-5">
+
+                    <div class="text-center">
+                        <h2 id="request-a-quote-heading">Request a Quote</h2>
+                    </div>
 
                     <form class="form-horizontal">
 
-                        <div class="form-group">
-                            <label for="make">Select Make</label>
-                            <select class="form-control">
+                        <div class="form-group text-center">
+                            {{--<label for="make">Select Make</label>--}}
+                            <select class="form-control request-a-quote-select">
+                                <option>Select Make</option>
                                 <option>Acura</option>
                                 <option>Audi</option>
                                 <option>Aston Martin</option>
@@ -22,9 +27,10 @@
                             </select>
                         </div>
 
-                        <div class="form-group">
-                            <label for="make">Select Model</label>
-                            <select class="form-control">
+                        <div class="form-group text-center">
+                            {{--<label for="model">Select Model</label>--}}
+                            <select class="form-control request-a-quote-select">
+                                <option>Select Model</option>
                                 <option>A1</option>
                                 <option>A2</option>
                                 <option>A3</option>
@@ -34,7 +40,7 @@
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-default">Next</button>
+                            <button type="submit" class="btn btn-primary btn-block btn-lg" style="border: none;">Next</button>
                         </div>
 
                     </form>
