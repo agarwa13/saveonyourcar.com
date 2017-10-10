@@ -16,7 +16,7 @@
 
                     <div class="form-group text-center">
                         <select class="form-control request-a-quote-select">
-                            <option>Select Make</option>
+                            <option selected disabled hidden>Select Make</option>
                             <option>Acura</option>
                             <option>Audi</option>
                             <option>Aston Martin</option>
@@ -27,7 +27,7 @@
 
                     <div class="form-group text-center">
                         <select class="form-control request-a-quote-select">
-                            <option>Select Model</option>
+                            <option selected disabled hidden>Select Model</option>
                             <option>A1</option>
                             <option>A2</option>
                             <option>A3</option>
@@ -38,7 +38,7 @@
 
                     <div class="form-group text-center">
                         <select class="form-control request-a-quote-select">
-                            <option>Select Fuel</option>
+                            <option selected disabled hidden>Select Fuel</option>
                             <option>Petrol</option>
                             <option>Diesel</option>
                             <option>Hybrid</option>
@@ -48,7 +48,7 @@
 
                     <div class="form-group text-center">
                         <select class="form-control request-a-quote-select">
-                            <option>Select Transmission</option>
+                            <option selected disabled hidden>Select Transmission</option>
                             <option>Automatic</option>
                             <option>Manual</option>
                         </select>

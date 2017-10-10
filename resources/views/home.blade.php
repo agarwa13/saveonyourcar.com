@@ -18,7 +18,7 @@
                         <div class="form-group text-center">
                             {{--<label for="make">Select Make</label>--}}
                             <select class="form-control request-a-quote-select">
-                                <option>Select Make</option>
+                                <option selected disabled hidden>Select Make</option>
                                 <option>Acura</option>
                                 <option>Audi</option>
                                 <option>Aston Martin</option>
@@ -30,7 +30,7 @@
                         <div class="form-group text-center">
                             {{--<label for="model">Select Model</label>--}}
                             <select class="form-control request-a-quote-select">
-                                <option>Select Model</option>
+                                <option selected disabled hidden>Select Model</option>
                                 <option>A1</option>
                                 <option>A2</option>
                                 <option>A3</option>
